@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artes da Vanessa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Lobster", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            text-align: center;
+            font-weight: 400;
+            font-style: normal;
+        }
+        header {
+            background-color: #ffb6c1;
+            padding: 20px;
+            color: white;
+            border-bottom-right-radius: 48px;
+            border-bottom-left-radius: 48px;
+        }
+        header h1 {
+          font-size: 3.5rem;
+        }
+        header p {
+          font-family: "Lobster Two";
+          font-size: 2.5rem;
+        }
+        .gallery-title {
+          font-size: 2rem;
+          font-family: "Lobster Two";
+          color: #ffb6c1;
+          margin-bottom: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 320px;
+            height: auto;
+            margin: 10px;
+            border-radius: 12px;
+            transition: transform 0.3s;
+            border: 2px solid #ffb6c1;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #ffb6c1;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            font-family: "Lobster Two";
+        }
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 32px;
+        }
+        @media screen and (max-width: 500px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1.5rem;
+            }
+            .gallery-title {
+                font-size: 1.25rem;
+            }
+            .contact a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vanessa Topos de Bolo, Etiquetas, Caixinhas & mais</h1>
+        <p>Toques personalizados para deixar sua festa inesquecível!</p>
+    </header>
+    <h3 class="gallery-title">Confira alguns dos meus trabalhos:</h3>
+    <section class="gallery">
+        <img src="fotos/foto1.jpg" alt="Trabalho 1">
+        <img src="fotos/foto2.jpg" alt="Trabalho 2">
+        <img src="fotos/foto3.jpg" alt="Trabalho 3">
+        <img src="fotos/foto4.jpg" alt="Trabalho 4">
+        <img src="fotos/foto5.jpg" alt="Trabalho 5">
+        <img src="fotos/foto6.jpg" alt="Trabalho 6">
+        <img src="fotos/foto7.jpg" alt="Trabalho 7">
+        <img src="fotos/foto8.jpg" alt="Trabalho 8">
+        <img src="fotos/foto9.jpg" alt="Trabalho 9">
+    </section>
+    <footer>
+        <div class="contact">
+            <a href="https://wa.me/seunumero" target="_blank">📱 WhatsApp</a>
+            <a href="https://instagram.com/seuperfil" target="_blank">📷 Instagram</a>
+        </div>
+        <p>&copy; 2025 Artes da Vanessa - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
